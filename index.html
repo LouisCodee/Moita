@@ -1,0 +1,1855 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en" style="">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Moita Secondary | Inspiring Excellence, Empowering Future Leaders</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Open+Sans:wght@400;600&amp;display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet">
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary": "#ffffff",
+                        "secondary-fixed-dim": "#f8be1c",
+                        "on-tertiary-fixed": "#171d1c",
+                        "on-surface": "#121c28",
+                        "on-error": "#ffffff",
+                        "deep-forest": "#0E4A40",
+                        "on-tertiary-fixed-variant": "#424847",
+                        "on-primary-fixed-variant": "#00504a",
+                        "on-secondary-container": "#6e5200",
+                        "tertiary-container": "#565c5b",
+                        "primary-fixed": "#a2f1e6",
+                        "surface-container-high": "#dfe9f9",
+                        "primary-fixed-dim": "#86d5ca",
+                        "on-secondary-fixed": "#251a00",
+                        "surface-container-low": "#eef4ff",
+                        "surface-container": "#e4efff",
+                        "secondary": "#785a00",
+                        "primary": "#004c46",
+                        "on-background": "#121c28",
+                        "surface": "#f8f9ff",
+                        "on-primary-container": "#92e1d6",
+                        "inverse-on-surface": "#e9f1ff",
+                        "on-primary": "#ffffff",
+                        "on-primary-fixed": "#00201d",
+                        "on-secondary-fixed-variant": "#5b4300",
+                        "surface-tint": "#E8F2F1",
+                        "on-surface-variant": "#3e4947",
+                        "outline": "#6f7977",
+                        "surface-container-highest": "#d9e3f4",
+                        "primary-container": "#00665e",
+                        "surface-bright": "#f8f9ff",
+                        "outline-variant": "#bec9c6",
+                        "on-secondary": "#ffffff",
+                        "background": "#f8f9ff",
+                        "tertiary-fixed": "#dee3e3",
+                        "error": "#ba1a1a",
+                        "secondary-fixed": "#ffdf9d",
+                        "surface-dim": "#d0dbeb",
+                        "accent-coral": "#FF7E73",
+                        "on-tertiary-container": "#cfd4d3",
+                        "error-container": "#ffdad6",
+                        "accent-lavender": "#9B8AFB",
+                        "on-error-container": "#93000a",
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary": "#3f4444",
+                        "tertiary-fixed-dim": "#c2c7c7",
+                        "inverse-primary": "#86d5ca",
+                        "surface-variant": "#d9e3f4",
+                        "inverse-surface": "#27313e",
+                        "secondary-container": "#fec324"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-desktop": "48px",
+                        "gutter": "24px",
+                        "base": "8px",
+                        "margin-mobile": "16px",
+                        "container-max": "1280px",
+                        "section-gap": "96px"
+                    },
+                    "fontFamily": {
+                        "label-sm": ["Plus Jakarta Sans"],
+                        "headline-md": ["Plus Jakarta Sans"],
+                        "display-lg": ["Plus Jakarta Sans"],
+                        "title-lg": ["Plus Jakarta Sans"],
+                        "label-md": ["Plus Jakarta Sans"],
+                        "headline-lg-mobile": ["Plus Jakarta Sans"],
+                        "body-lg": ["Open Sans"],
+                        "body-md": ["Open Sans"],
+                        "headline-lg": ["Plus Jakarta Sans"]
+                    },
+                    "fontSize": {
+                        "label-sm": ["12px", { "lineHeight": "16px", "fontWeight": "500" }],
+                        "headline-md": ["28px", { "lineHeight": "36px", "fontWeight": "700" }],
+                        "display-lg": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+                        "title-lg": ["20px", { "lineHeight": "28px", "fontWeight": "600" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600" }],
+                        "headline-lg-mobile": ["32px", { "lineHeight": "40px", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "700" }]
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .entrance-fade {
+            animation: entrance 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+        }
+
+        @keyframes entrance {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 24px;
+        }
+
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .card-hover:hover {
+            transform: translateY(-8px) scale(1.01);
+            box-shadow: 0px 12px 32px rgba(0, 102, 94, 0.08);
+        }
+
+        /* ── Navbar ── */
+        #main-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            transition: background 0.4s ease, backdrop-filter 0.4s ease, box-shadow 0.4s ease, padding 0.4s ease;
+            padding: 1.25rem 0;
+        }
+
+        #main-header.scrolled {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            box-shadow: 0 1px 24px rgba(0, 76, 70, 0.10);
+            padding: 0.6rem 0;
+        }
+
+        #main-header .nav-link {
+            color: rgba(255, 255, 255, 0.90);
+            transition: color 0.25s;
+        }
+
+        #main-header.scrolled .nav-link {
+            color: #3e4947;
+        }
+
+        #main-header .nav-link:hover,
+        #main-header.scrolled .nav-link:hover {
+            color: #004c46;
+        }
+
+        #main-header .logo-text {
+            color: #fff;
+        }
+
+        #main-header.scrolled .logo-text {
+            color: #004c46;
+        }
+
+        #main-header .nav-apply-btn {
+            background: rgba(255, 255, 255, 0.18);
+            color: #fff;
+            border: 1.5px solid rgba(255, 255, 255, 0.45);
+            backdrop-filter: blur(8px);
+        }
+
+        #main-header.scrolled .nav-apply-btn {
+            background: #004c46;
+            color: #fff;
+            border-color: transparent;
+        }
+
+        #main-header .nav-login-btn {
+            color: rgba(255, 255, 255, 0.85);
+            border-color: rgba(255, 255, 255, 0.35);
+        }
+
+        #main-header.scrolled .nav-login-btn {
+            color: #004c46;
+            border-color: #6f7977;
+        }
+
+        /* ── Hero Slideshow ── */
+        #hero {
+            height: 100vh;
+            min-height: 640px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-slide {
+            position: absolute;
+            inset: 0;
+            opacity: 0;
+            transition: opacity 1.2s ease;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero-slide.active {
+            opacity: 1;
+        }
+
+        .hero-slide.active .slide-bg {
+            animation: kenBurns 8s ease forwards;
+        }
+
+        @keyframes kenBurns {
+            from {
+                transform: scale(1);
+            }
+
+            to {
+                transform: scale(1.08);
+            }
+        }
+
+        .slide-bg {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(110deg, rgba(0, 30, 27, 0.82) 40%, rgba(0, 30, 27, 0.40) 100%);
+            z-index: 1;
+        }
+
+        /* ── Floating Particles ── */
+        .particle {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.12;
+            animation: floatUp linear infinite;
+            pointer-events: none;
+            z-index: 2;
+        }
+
+        @keyframes floatUp {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 0;
+            }
+
+            10% {
+                opacity: 0.14;
+            }
+
+            90% {
+                opacity: 0.10;
+            }
+
+            100% {
+                transform: translateY(-110vh) rotate(540deg);
+                opacity: 0;
+            }
+        }
+
+        .particle.geo {
+            border-radius: 4px;
+            opacity: 0.08;
+        }
+
+        /* ── Hero Content Animations ── */
+        .hero-content {
+            position: relative;
+            z-index: 10;
+        }
+
+        .hero-badge {
+            animation: slideDown 0.7s 0.2s cubic-bezier(0.22, 1, 0.36, 1) both;
+        }
+
+        .hero-h1 {
+            animation: slideDown 0.8s 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+        }
+
+        .hero-sub {
+            animation: slideDown 0.8s 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+        }
+
+        .hero-btns {
+            animation: slideDown 0.8s 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+        }
+
+        .hero-counters {
+            animation: slideDown 0.8s 1.0s cubic-bezier(0.22, 1, 0.36, 1) both;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-28px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* ── CTA Buttons ── */
+        .btn-hero-primary {
+            background: #f8be1c;
+            color: #251a00;
+            border-radius: 0.5rem;
+            padding: 1rem 2rem;
+            font-weight: 700;
+            font-size: 0.875rem;
+            letter-spacing: 0.05em;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .btn-hero-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 28px rgba(248, 190, 28, 0.40);
+        }
+
+        .btn-hero-ghost {
+            background: rgba(255, 255, 255, 0.10);
+            color: #fff;
+            border: 1.5px solid rgba(255, 255, 255, 0.45);
+            border-radius: 0.5rem;
+            padding: 1rem 2rem;
+            font-weight: 600;
+            font-size: 0.875rem;
+            letter-spacing: 0.05em;
+            backdrop-filter: blur(8px);
+            transition: background 0.2s, transform 0.2s;
+        }
+
+        .btn-hero-ghost:hover {
+            background: rgba(255, 255, 255, 0.18);
+            transform: translateY(-3px);
+        }
+
+        /* ── Slide indicators ── */
+        .slide-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 99px;
+            background: rgba(255, 255, 255, 0.35);
+            cursor: pointer;
+            transition: all 0.35s;
+        }
+
+        .slide-dot.active {
+            width: 32px;
+            background: #f8be1c;
+        }
+
+        /* ── Scroll Indicator ── */
+        .scroll-indicator {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 20;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+            animation: fadeInUp 1s 1.4s both;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateX(-50%) translateY(16px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(-50%) translateY(0);
+            }
+        }
+
+        .scroll-mouse {
+            width: 24px;
+            height: 38px;
+            border: 2px solid rgba(255, 255, 255, 0.50);
+            border-radius: 14px;
+            display: flex;
+            justify-content: center;
+            padding-top: 6px;
+        }
+
+        .scroll-wheel {
+            width: 4px;
+            height: 8px;
+            background: #f8be1c;
+            border-radius: 2px;
+            animation: scrollWheel 1.5s ease infinite;
+        }
+
+        @keyframes scrollWheel {
+            0% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            80% {
+                opacity: 0;
+                transform: translateY(12px);
+            }
+
+            100% {
+                opacity: 0;
+                transform: translateY(0);
+            }
+        }
+
+        /* ── Inline counter bar in hero ── */
+        .hero-stat-bar {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            padding-top: 1.25rem;
+        }
+
+        .hero-stat-val {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: #f8be1c;
+            line-height: 1;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .hero-stat-label {
+            font-size: 0.68rem;
+            color: rgba(255, 255, 255, 0.70);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-top: 2px;
+        }
+
+        /* ═══════════════════════════════════════
+           MOBILE RESPONSIVE — Hero & Navbar
+        ═══════════════════════════════════════ */
+        @media (max-width: 767px) {
+
+            /* Navbar: shrink logo text */
+            #main-header .logo-text {
+                font-size: 1rem !important;
+                line-height: 1.2;
+            }
+
+            #main-header {
+                padding: 0.75rem 0;
+            }
+
+            /* Hero: push content down below fixed navbar */
+            .hero-content {
+                padding-top: 72px;
+                justify-content: flex-start !important;
+                padding-bottom: 5rem;
+                overflow-y: auto;
+            }
+
+            /* Badge: smaller, truncated */
+            .hero-badge {
+                margin-bottom: 0.875rem !important;
+            }
+
+            .hero-badge span {
+                font-size: 0.6rem !important;
+                padding: 0.35rem 0.75rem !important;
+                letter-spacing: 0.05em !important;
+            }
+
+            /* H1: tighter clamp for small screens */
+            .hero-h1 {
+                font-size: clamp(1.45rem, 7.5vw, 2.1rem) !important;
+                line-height: 1.15 !important;
+                margin-bottom: 0.75rem !important;
+            }
+
+            /* Sub-headline: smaller and less margin */
+            .hero-sub {
+                font-size: 0.82rem !important;
+                line-height: 1.55 !important;
+                margin-bottom: 1rem !important;
+            }
+
+            /* CTA buttons: smaller padding, 2 per row */
+            .hero-btns {
+                gap: 0.5rem !important;
+                margin-bottom: 1.25rem !important;
+            }
+
+            .btn-hero-primary,
+            .btn-hero-ghost {
+                padding: 0.6rem 1rem !important;
+                font-size: 0.75rem !important;
+                border-radius: 0.375rem !important;
+            }
+
+            .btn-hero-primary .material-symbols-outlined,
+            .btn-hero-ghost .material-symbols-outlined {
+                font-size: 15px !important;
+            }
+
+            /* Counter bar: 2×2 grid, smaller values */
+            .hero-stat-bar {
+                display: grid !important;
+                grid-template-columns: 1fr 1fr !important;
+                gap: 0.75rem 1rem !important;
+                padding-top: 0.875rem !important;
+            }
+
+            .hero-stat-val {
+                font-size: 1.15rem !important;
+            }
+
+            .hero-stat-label {
+                font-size: 0.58rem !important;
+                letter-spacing: 0.06em !important;
+            }
+
+            /* Hide scroll indicator on mobile — saves vertical space */
+            .scroll-indicator {
+                display: none !important;
+            }
+
+            /* Move slide dots so they don’t overlap counter */
+            #hero>div[style*="bottom:2.5rem"] {
+                bottom: 0.75rem !important;
+                right: 1rem !important;
+            }
+        }
+
+        /* Very small phones (iPhone SE etc.) */
+        @media (max-width: 390px) {
+            .hero-h1 {
+                font-size: 1.3rem !important;
+            }
+
+            .hero-sub {
+                font-size: 0.78rem !important;
+            }
+
+            .btn-hero-primary,
+            .btn-hero-ghost {
+                padding: 0.55rem 0.875rem !important;
+            }
+        }
+
+        /* ═══════════════════════════════════════
+           MOBILE DRAWER NAV
+        ═══════════════════════════════════════ */
+
+        /* Animated hamburger → X */
+        .ham-bar {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: currentColor;
+            border-radius: 2px;
+            transform-origin: center;
+            transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+                opacity 0.25s ease,
+                width 0.25s ease;
+        }
+
+        #mob-menu-btn {
+            color: #fff;
+        }
+
+        #main-header.scrolled #mob-menu-btn {
+            color: #004c46;
+        }
+
+        #mob-menu-btn.open .ham-bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+
+        #mob-menu-btn.open .ham-bar:nth-child(2) {
+            opacity: 0;
+            transform: scaleX(0);
+        }
+
+        #mob-menu-btn.open .ham-bar:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+            width: 24px;
+        }
+
+        /* Backdrop */
+        #mob-backdrop {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.55);
+            backdrop-filter: blur(4px);
+            z-index: 200;
+            opacity: 0;
+            transition: opacity 0.35s ease;
+        }
+
+        #mob-backdrop.open {
+            display: block;
+        }
+
+        #mob-backdrop.visible {
+            opacity: 1;
+        }
+
+        /* Drawer panel */
+        #mob-drawer {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: min(320px, 88vw);
+            background: #001a18;
+            z-index: 210;
+            display: flex;
+            flex-direction: column;
+            transform: translateX(100%);
+            transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+            overflow-y: auto;
+        }
+
+        #mob-drawer.open {
+            transform: translateX(0);
+        }
+
+        /* Drawer close button */
+        .drawer-close {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.08);
+            color: rgba(255, 255, 255, 0.75);
+            cursor: pointer;
+            transition: background 0.2s;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            flex-shrink: 0;
+        }
+
+        .drawer-close:hover {
+            background: rgba(255, 255, 255, 0.15);
+            color: #fff;
+        }
+
+        /* Drawer nav links */
+        .drawer-link {
+            display: flex;
+            align-items: center;
+            gap: 0.875rem;
+            padding: 0.9rem 1.5rem;
+            color: rgba(255, 255, 255, 0.80);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-weight: 600;
+            font-size: 1rem;
+            border-radius: 0.75rem;
+            transition: background 0.2s, color 0.2s, transform 0.2s;
+            text-decoration: none;
+        }
+
+        .drawer-link:hover {
+            background: rgba(255, 255, 255, 0.07);
+            color: #fff;
+            transform: translateX(4px);
+        }
+
+        .drawer-link .drawer-link-icon {
+            width: 38px;
+            height: 38px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.07);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        /* Staggered entrance for each link */
+        #mob-drawer.open .drawer-link {
+            animation: drawerLinkIn 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+        }
+
+        #mob-drawer.open .drawer-link:nth-child(1) {
+            animation-delay: 0.10s;
+        }
+
+        #mob-drawer.open .drawer-link:nth-child(2) {
+            animation-delay: 0.16s;
+        }
+
+        #mob-drawer.open .drawer-link:nth-child(3) {
+            animation-delay: 0.22s;
+        }
+
+        #mob-drawer.open .drawer-link:nth-child(4) {
+            animation-delay: 0.28s;
+        }
+
+        #mob-drawer.open .drawer-link:nth-child(5) {
+            animation-delay: 0.34s;
+        }
+
+        @keyframes drawerLinkIn {
+            from {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-background text-on-background font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
+
+    <!-- ═══════════════════════════════════════════
+         NAVBAR — transparent → glassmorphism on scroll
+    ═══════════════════════════════════════════ -->
+    <header id="main-header">
+        <nav class="flex justify-between items-center w-full px-margin-desktop max-w-container-max mx-auto">
+            <!-- Logo -->
+            <div class="flex items-center gap-3">
+                <img alt="Moita Academy Logo" class="h-11 w-11 object-contain drop-shadow"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZP73BS5WVoJnObwZQev4Vy4OaGIYZda3eYrwZ1Jt6p4iRuB5D6yVtq_CnJ5dTIPBneU3s8T0tvWA1OtcbAU-RnVszKWtKmHHhgHf_sXc9jP-XjP2yVAaLNhYY4ztSQBDe10X3FkLi4Iu2qfduKevQirWbpVY3tr_BN7kvH6xc_xy2IQLERMiZ1Qen0-p5RcxbLI6m0T8r4MQbyai3zOcLN-ZqICBZeRVqdDuf8NfjuGkcIL1s_h1JB33dgJXApUMF8VK_Ym1rIS7R">
+                <span class="logo-text font-headline-md text-headline-md font-bold">Moita Secondary</span>
+            </div>
+            <!-- Desktop Links -->
+            <div class="hidden md:flex items-center gap-7">
+                <a class="nav-link font-label-md text-label-md font-semibold tracking-wide" href="#">Home</a>
+                <a class="nav-link font-label-md text-label-md font-semibold tracking-wide" href="#">About</a>
+                <a class="nav-link font-label-md text-label-md font-semibold tracking-wide" href="#">Academics</a>
+                <a class="nav-link font-label-md text-label-md font-semibold tracking-wide" href="#">Admissions</a>
+                <a class="nav-link font-label-md text-label-md font-semibold tracking-wide" href="#contact">Contact</a>
+            </div>
+            <!-- Actions -->
+            <div class="flex items-center gap-3">
+                <button
+                    class="nav-login-btn hidden lg:flex items-center gap-1.5 px-4 py-2 rounded-lg border font-label-md text-label-md transition-all hover:bg-white/10">
+                    <span class="material-symbols-outlined" style="font-variation-settings:'opsz' 20">login</span>
+                    Login
+                </button>
+                <!-- Animated hamburger -->
+                <button id="mob-menu-btn" class="md:hidden flex flex-col gap-1.5 p-2 rounded-lg"
+                    aria-label="Toggle menu" aria-expanded="false">
+                    <span class="ham-bar"></span>
+                    <span class="ham-bar"></span>
+                    <span class="ham-bar" style="width:16px"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ═══════════════════════════════════════════
+         MOBILE DRAWER
+    ═══════════════════════════════════════════ -->
+    <!-- Backdrop -->
+    <div id="mob-backdrop"></div>
+
+    <!-- Drawer panel -->
+    <div id="mob-drawer" role="dialog" aria-modal="true" aria-label="Navigation menu">
+        <!-- Drawer header -->
+        <div
+            style="display:flex;align-items:center;justify-content:space-between;padding:1.25rem 1.25rem 1rem;border-bottom:1px solid rgba(255,255,255,0.08);">
+            <div style="display:flex;align-items:center;gap:0.625rem;">
+                <img alt="Logo" style="width:36px;height:36px;object-fit:contain;"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZP73BS5WVoJnObwZQev4Vy4OaGIYZda3eYrwZ1Jt6p4iRuB5D6yVtq_CnJ5dTIPBneU3s8T0tvWA1OtcbAU-RnVszKWtKmHHhgHf_sXc9jP-XjP2yVAaLNhYY4ztSQBDe10X3FkLi4Iu2qfduKevQirWbpVY3tr_BN7kvH6xc_xy2IQLERMiZ1Qen0-p5RcxbLI6m0T8r4MQbyai3zOcLN-ZqICBZeRVqdDuf8NfjuGkcIL1s_h1JB33dgJXApUMF8VK_Ym1rIS7R">
+                <span
+                    style="font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:1rem;color:#fff;">Moita
+                    Secondary</span>
+            </div>
+            <button class="drawer-close" id="mob-drawer-close" aria-label="Close menu">
+                <span class="material-symbols-outlined" style="font-size:20px;">close</span>
+            </button>
+        </div>
+
+        <!-- Nav links -->
+        <nav style="flex:1;padding:1rem 1rem;display:flex;flex-direction:column;gap:0.25rem;">
+            <a href="#" class="drawer-link" data-mob-link>
+                <div class="drawer-link-icon"><span class="material-symbols-outlined"
+                        style="font-size:20px;color:#86d5ca;">home</span></div>
+                Home
+            </a>
+            <a href="#" class="drawer-link" data-mob-link>
+                <div class="drawer-link-icon"><span class="material-symbols-outlined"
+                        style="font-size:20px;color:#f8be1c;">info</span></div>
+                About Us
+            </a>
+            <a href="#" class="drawer-link" data-mob-link>
+                <div class="drawer-link-icon"><span class="material-symbols-outlined"
+                        style="font-size:20px;color:#9B8AFB;">school</span></div>
+                Academics
+            </a>
+            <a href="#" class="drawer-link" data-mob-link>
+                <div class="drawer-link-icon"><span class="material-symbols-outlined"
+                        style="font-size:20px;color:#ff7e73;">how_to_reg</span></div>
+                Admissions
+            </a>
+            <a href="#contact" class="drawer-link" data-mob-link>
+                <div class="drawer-link-icon"><span class="material-symbols-outlined"
+                        style="font-size:20px;color:#86d5ca;">call</span></div>
+                Contact Us
+            </a>
+        </nav>
+
+        <!-- Drawer CTA -->
+        <div style="padding:1rem 1.25rem;display:flex;flex-direction:column;gap:0.75rem;">
+            <button
+                style="width:100%;padding:0.75rem;background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.85);font-family:'Plus Jakarta Sans',sans-serif;font-weight:600;font-size:0.875rem;border-radius:0.625rem;border:1px solid rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+                <span class="material-symbols-outlined" style="font-size:18px;">login</span>
+                Student Login
+            </button>
+        </div>
+
+        <!-- Drawer footer -->
+        <div style="padding:1rem 1.25rem 2rem;border-top:1px solid rgba(255,255,255,0.08);">
+            <p
+                style="font-size:0.7rem;color:rgba(255,255,255,0.35);margin-bottom:0.75rem;text-transform:uppercase;letter-spacing:0.1em;">
+                Follow us</p>
+            <div style="display:flex;gap:0.625rem;">
+                <a href="#"
+                    style="width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.70);font-size:0.75rem;font-weight:700;transition:background 0.2s;"
+                    onmouseover="this.style.background='rgba(248,190,28,0.2)'"
+                    onmouseout="this.style.background='rgba(255,255,255,0.07)'">f</a>
+                <a href="#"
+                    style="width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.70);font-size:0.75rem;font-weight:700;transition:background 0.2s;"
+                    onmouseover="this.style.background='rgba(248,190,28,0.2)'"
+                    onmouseout="this.style.background='rgba(255,255,255,0.07)'">tw</a>
+                <a href="#"
+                    style="width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.70);font-size:0.75rem;font-weight:700;transition:background 0.2s;"
+                    onmouseover="this.style.background='rgba(248,190,28,0.2)'"
+                    onmouseout="this.style.background='rgba(255,255,255,0.07)'">ig</a>
+                <a href="#"
+                    style="width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.70);font-size:0.75rem;font-weight:700;transition:background 0.2s;"
+                    onmouseover="this.style.background='rgba(248,190,28,0.2)'"
+                    onmouseout="this.style.background='rgba(255,255,255,0.07)'">yt</a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <!-- ═══════════════════════════════════════════
+             HERO SECTION — Full-height slideshow
+        ═══════════════════════════════════════════ -->
+        <section id="hero">
+
+            <!-- ── Background Slides ── -->
+            <!-- Slide 1 -->
+            <div class="hero-slide active" id="slide-0">
+                <div class="slide-bg" style="background-image:url('images/cl1.jpg')">
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="hero-slide" id="slide-1">
+                <div class="slide-bg" style="background-image:url('images/cl2.jpg')">
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="hero-slide" id="slide-2">
+                <div class="slide-bg" style="background-image:url('images/cls3.jpg')">
+                </div>
+            </div>
+
+            <!-- Dark gradient overlay -->
+            <div class="hero-overlay"></div>
+
+            <!-- ── Floating Particles ── -->
+            <div id="particles-container" aria-hidden="true"
+                style="position:absolute;inset:0;z-index:2;pointer-events:none;"></div>
+
+            <!-- Hero Content: flex-col, start-aligned, padded top for navbar -->
+            <div class="hero-content absolute inset-0 flex flex-col justify-center px-margin-desktop max-w-container-max mx-auto left-0 right-0 lg:w-3/4 xl:w-2/3"
+                style="padding-left:1.25rem;padding-right:1.25rem;">
+
+                <!-- Headline -->
+                <h1 class="hero-h1 mb-5"
+                    style="font-family:'Plus Jakarta Sans',sans-serif;font-size:clamp(2.5rem,6vw,4.5rem);font-weight:800;line-height:1.1;color:#fff;letter-spacing:-0.02em;">
+                    Shaping Future Leaders<br>
+                    <span
+                        style="background:linear-gradient(90deg,#f8be1c,#ff7e73);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Through
+                        Quality Education</span>
+                </h1>
+
+                <!-- Sub-headline -->
+                <p class="hero-sub mb-10 max-w-2xl"
+                    style="font-size:1.125rem;line-height:1.7;color:rgba(255,255,255,0.85);font-family:'Open Sans',sans-serif;">
+                    Tanzania's premier secondary school dedicated to academic rigor, character development,
+                    and cultural heritage — building tomorrow's visionaries today.
+                </p>
+
+
+                <!-- Mini counter bar -->
+                <div class="hero-counters hero-stat-bar max-w-2xl">
+                    <div>
+                        <div class="hero-stat-val"><span class="hc" data-target="5000">0</span>+</div>
+                        <div class="hero-stat-label">Students Enrolled</div>
+                    </div>
+                    <div>
+                        <div class="hero-stat-val"><span class="hc" data-target="120">0</span></div>
+                        <div class="hero-stat-label">Expert Teachers</div>
+                    </div>
+                    <div>
+                        <div class="hero-stat-val"><span class="hc" data-target="25">0</span>+</div>
+                        <div class="hero-stat-label">Years of Excellence</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ── Slide Dots ── -->
+            <div
+                style="position:absolute;bottom:2.5rem;right:3rem;z-index:20;display:flex;gap:0.5rem;align-items:center;">
+                <div class="slide-dot active" onclick="goToSlide(0)" id="dot-0"></div>
+                <div class="slide-dot" onclick="goToSlide(1)" id="dot-1"></div>
+                <div class="slide-dot" onclick="goToSlide(2)" id="dot-2"></div>
+            </div>
+
+            <!-- ── Scroll Indicator ── -->
+            <div class="scroll-indicator">
+                <span
+                    style="font-size:0.6rem;color:rgba(255,255,255,0.5);letter-spacing:0.12em;text-transform:uppercase;">Scroll</span>
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Hero JS -->
+        <script>
+            // ── Navbar scroll effect ──
+            const header = document.getElementById('main-header');
+            window.addEventListener('scroll', () => {
+                header.classList.toggle('scrolled', window.scrollY > 60);
+            }, { passive: true });
+
+            // ── Mobile Drawer ──
+            const mobBtn = document.getElementById('mob-menu-btn');
+            const backdrop = document.getElementById('mob-backdrop');
+            const drawer = document.getElementById('mob-drawer');
+            const drawerClose = document.getElementById('mob-drawer-close');
+            const mobLinks = document.querySelectorAll('[data-mob-link]');
+
+            function openDrawer() {
+                backdrop.classList.add('open');
+                requestAnimationFrame(() => backdrop.classList.add('visible'));
+                drawer.classList.add('open');
+                mobBtn.classList.add('open');
+                mobBtn.setAttribute('aria-expanded', 'true');
+                document.body.style.overflow = 'hidden';
+            }
+
+            function closeDrawer() {
+                backdrop.classList.remove('visible');
+                drawer.classList.remove('open');
+                mobBtn.classList.remove('open');
+                mobBtn.setAttribute('aria-expanded', 'false');
+                document.body.style.overflow = '';
+                setTimeout(() => backdrop.classList.remove('open'), 380);
+            }
+
+            mobBtn.addEventListener('click', () => {
+                drawer.classList.contains('open') ? closeDrawer() : openDrawer();
+            });
+            drawerClose.addEventListener('click', closeDrawer);
+            backdrop.addEventListener('click', closeDrawer);
+            mobLinks.forEach(link => link.addEventListener('click', closeDrawer));
+            document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
+
+            // ── Slideshow ──
+            let currentSlide = 0;
+            const slides = document.querySelectorAll('.hero-slide');
+            const dots = document.querySelectorAll('.slide-dot');
+            const total = slides.length;
+
+            function goToSlide(n) {
+                slides[currentSlide].classList.remove('active');
+                dots[currentSlide].classList.remove('active');
+                currentSlide = (n + total) % total;
+                slides[currentSlide].classList.add('active');
+                dots[currentSlide].classList.add('active');
+            }
+
+            setInterval(() => goToSlide(currentSlide + 1), 6000);
+
+            // ── Floating Particles ──
+            (function spawnParticles() {
+                const container = document.getElementById('particles-container');
+                const colors = ['#f8be1c', '#86d5ca', '#ff7e73', '#ffffff', '#9B8AFB'];
+                const count = 22;
+                for (let i = 0; i < count; i++) {
+                    const el = document.createElement('div');
+                    const isGeo = Math.random() > 0.6;
+                    el.className = 'particle' + (isGeo ? ' geo' : '');
+                    const size = Math.random() * 28 + 8;
+                    const left = Math.random() * 100;
+                    const delay = Math.random() * 18;
+                    const dur = Math.random() * 14 + 12;
+                    const color = colors[Math.floor(Math.random() * colors.length)];
+                    el.style.cssText = `
+                        width:${size}px;height:${size}px;
+                        left:${left}%;bottom:-${size}px;
+                        background:${color};
+                        animation-duration:${dur}s;
+                        animation-delay:${delay}s;
+                        border-radius:${isGeo ? Math.random() * 6 + 2 + 'px' : '50%'};
+                    `;
+                    container.appendChild(el);
+                }
+            })();
+
+            // ── Hero counters (fire immediately on load) ──
+            function animateCounter(el, target, duration) {
+                let start = null;
+                function step(ts) {
+                    if (!start) start = ts;
+                    const p = Math.min((ts - start) / duration, 1);
+                    const ease = 1 - Math.pow(1 - p, 4);
+                    el.textContent = Math.floor(ease * target).toLocaleString();
+                    if (p < 1) requestAnimationFrame(step);
+                    else el.textContent = target.toLocaleString();
+                }
+                requestAnimationFrame(step);
+            }
+            window.addEventListener('DOMContentLoaded', () => {
+                document.querySelectorAll('.hc').forEach(el => {
+                    animateCounter(el, +el.dataset.target, 2200);
+                });
+            });
+        </script>
+
+        <!-- About Section -->
+        <section class="py-20 lg:py-28 px-margin-desktop max-w-container-max mx-auto overflow-hidden relative">
+            <!-- Decorative blur -->
+            <div
+                class="absolute top-1/4 -right-20 w-96 h-96 bg-primary/5 rounded-full mix-blend-multiply filter blur-3xl opacity-70 pointer-events-none">
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center relative z-10">
+                <!-- Image Column -->
+                <div class="relative group mt-8 lg:mt-0">
+                    <!-- Image backing frame -->
+                    <div
+                        class="absolute -inset-4 bg-primary/10 rounded-2xl -rotate-3 group-hover:rotate-0 transition-transform duration-700 ease-out border border-primary/20">
+                    </div>
+
+                    <!-- Main Image -->
+                    <img alt="Moita Campus"
+                        class="relative rounded-2xl w-full h-[450px] lg:h-[550px] object-cover shadow-2xl transition-transform duration-700 group-hover:scale-[1.02]"
+                        src="images/abt.jpg">
+
+                    <!-- Glassmorphism Floating Card -->
+                    <div
+                        class="absolute -bottom-6 -right-4 lg:-right-10 p-6 lg:p-8 bg-white/80 backdrop-blur-xl rounded-2xl shadow-[0_20px_40px_-15px_rgba(0,0,0,0.15)] border border-white hidden md:block max-w-[280px] transform group-hover:-translate-y-2 transition-transform duration-700">
+                        <div class="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center mb-4">
+                            <span class="material-symbols-outlined text-secondary text-2xl">verified</span>
+                        </div>
+                        <p class="font-title-lg text-title-lg text-primary font-bold mb-1">Center of Excellence</p>
+                        <p class="font-body-md text-sm text-on-surface-variant leading-relaxed">Ranked #1 in Academic
+                            Performance for 3 consecutive years.</p>
+                    </div>
+                </div>
+
+                <!-- Content Column -->
+                <div class="entrance-fade">
+                    <!-- Badge -->
+                    <div
+                        class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase bg-primary/5 text-primary border border-primary/10 mb-6">
+                        <span class="material-symbols-outlined" style="font-size:14px;">waving_hand</span>
+                        Welcome to Moita
+                    </div>
+
+                    <h2 class="text-4xl lg:text-5xl text-primary font-extrabold mb-6 leading-[1.15] tracking-tight"
+                        style="font-family:'Plus Jakarta Sans',sans-serif;">
+                        Nurturing Today's Learners Into <span class="text-secondary">Tomorrow's Leaders</span>
+                    </h2>
+
+                    <p class="text-lg text-on-surface-variant mb-10 leading-relaxed font-body-md">
+                        Established with a commitment to providing high-quality education, Moita Secondary School has
+                        grown
+                        into a beacon of intellectual and moral growth in Tanzania. We combine traditional values with
+                        modern pedagogical approaches to unlock every student's full potential.
+                    </p>
+
+                    <div class="space-y-8">
+                        <!-- Vision -->
+                        <div class="flex gap-5 group/item">
+                            <div
+                                class="flex-shrink-0 w-14 h-14 bg-primary/10 group-hover/item:bg-primary/20 transition-colors duration-300 flex items-center justify-center rounded-xl shadow-inner border border-primary/5">
+                                <span class="material-symbols-outlined text-primary text-2xl">visibility</span>
+                            </div>
+                            <div>
+                                <h3 class="font-title-lg text-xl text-primary font-bold mb-2">Our Vision</h3>
+                                <p class="text-on-surface-variant leading-relaxed text-sm lg:text-base">To be a center
+                                    of excellence that shapes innovative thinkers and ethical leaders for Africa and the
+                                    world.</p>
+                            </div>
+                        </div>
+                        <!-- Mission -->
+                        <div class="flex gap-5 group/item">
+                            <div
+                                class="flex-shrink-0 w-14 h-14 bg-secondary/10 group-hover/item:bg-secondary/20 transition-colors duration-300 flex items-center justify-center rounded-xl shadow-inner border border-secondary/5">
+                                <span class="material-symbols-outlined text-secondary text-2xl">rocket_launch</span>
+                            </div>
+                            <div>
+                                <h3 class="font-title-lg text-xl text-primary font-bold mb-2">Our Mission</h3>
+                                <p class="text-on-surface-variant leading-relaxed text-sm lg:text-base">To provide a
+                                    holistic education that integrates academic excellence, life skills, and cultural
+                                    awareness in a supportive environment.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Academics Bento Grid -->
+        <section class="py-20 lg:py-28 bg-surface-container-low px-margin-desktop relative overflow-hidden">
+            <!-- Subtle background decoration -->
+            <div
+                class="absolute -top-40 -left-40 w-96 h-96 bg-secondary/5 rounded-full filter blur-[100px] pointer-events-none">
+            </div>
+
+            <div class="max-w-container-max mx-auto relative z-10">
+                <div class="text-center mb-16 lg:mb-20">
+                    <div
+                        class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase bg-primary/5 text-primary border border-primary/10 mb-6">
+                        <span class="material-symbols-outlined" style="font-size:14px;">auto_stories</span>
+                        Discover Our Curriculum
+                    </div>
+                    <h2 class="text-4xl lg:text-5xl text-primary font-extrabold mb-6 tracking-tight"
+                        style="font-family:'Plus Jakarta Sans',sans-serif;">Academic Programs</h2>
+                    <p class="text-lg text-on-surface-variant max-w-2xl mx-auto leading-relaxed">Diverse curriculum
+                        designed to challenge students, foster multi-disciplinary thinking, and prepare them for a
+                        global future.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+                    <!-- Primary -->
+                    <!-- <div
+                        class="bg-white p-8 lg:p-10 rounded-3xl border border-surface-tint flex flex-col gap-5 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.08)] group">
+                        <div
+                            class="w-14 h-14 bg-primary/5 group-hover:bg-primary/10 transition-colors rounded-2xl flex items-center justify-center">
+                            <span class="material-symbols-outlined text-primary text-3xl">child_care</span>
+                        </div>
+                        <h3 class="font-title-lg text-2xl text-primary font-bold mt-2">Primary Education</h3>
+                        <p class="font-body-md text-on-surface-variant flex-grow leading-relaxed">A foundation-building
+                            journey focusing on literacy, numeracy, and creative exploration.</p>
+                        <a class="inline-flex items-center text-primary font-bold hover:gap-3 gap-2 transition-all mt-2"
+                            href="#">Learn More <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+                    </div> -->
+
+                    <!-- Secondary (Featured) -->
+                    <div
+                        class="bg-primary relative overflow-hidden p-8 lg:p-10 rounded-3xl text-on-primary flex flex-col gap-5 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_40px_-15px_rgba(0,76,70,0.3)] group">
+                        <div
+                            class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full filter blur-3xl -translate-y-1/2 translate-x-1/3">
+                        </div>
+                        <div
+                            class="w-14 h-14 bg-white/10 group-hover:bg-white/20 transition-colors rounded-2xl flex items-center justify-center relative z-10 border border-white/10">
+                            <span class="material-symbols-outlined text-white text-3xl">school</span>
+                        </div>
+                        <h3 class="font-title-lg text-2xl font-bold mt-2 relative z-10">Secondary Education</h3>
+                        <p class="font-body-md text-white/90 flex-grow leading-relaxed relative z-10">Advanced O-level
+                            and A-level programs with a focus on national and international standards.</p>
+                        <a class="inline-flex items-center text-secondary font-bold hover:gap-3 gap-2 transition-all mt-2 relative z-10"
+                            href="#">View Curriculum <span
+                                class="material-symbols-outlined text-sm">arrow_forward</span></a>
+                    </div>
+
+                    <!-- Science -->
+                    <div
+                        class="bg-white p-8 lg:p-10 rounded-3xl border border-surface-tint flex flex-col gap-5 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.08)] group">
+                        <div
+                            class="w-14 h-14 bg-accent-coral/5 group-hover:bg-accent-coral/10 transition-colors rounded-2xl flex items-center justify-center">
+                            <span class="material-symbols-outlined text-accent-coral text-3xl">biotech</span>
+                        </div>
+                        <h3 class="font-title-lg text-2xl text-primary font-bold mt-2">Science Programs</h3>
+                        <p class="font-body-md text-on-surface-variant flex-grow leading-relaxed">State-of-the-art
+                            laboratories and research-led teaching for physics, biology, and chemistry.</p>
+                        <a class="inline-flex items-center text-primary font-bold hover:gap-3 gap-2 transition-all mt-2"
+                            href="#">Our Labs <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+                    </div>
+
+                    <!-- ICT -->
+                    <div
+                        class="bg-white p-8 lg:p-10 rounded-3xl border border-surface-tint flex flex-col gap-5 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.08)] group">
+                        <div
+                            class="w-14 h-14 bg-accent-lavender/5 group-hover:bg-accent-lavender/10 transition-colors rounded-2xl flex items-center justify-center">
+                            <span class="material-symbols-outlined text-accent-lavender text-3xl">computer</span>
+                        </div>
+                        <h3 class="font-title-lg text-2xl text-primary font-bold mt-2">ICT Programs</h3>
+                        <p class="font-body-md text-on-surface-variant flex-grow leading-relaxed">Equipping students
+                            with digital literacy, coding skills, and future-ready technology training.</p>
+                        <a class="inline-flex items-center text-primary font-bold hover:gap-3 gap-2 transition-all mt-2"
+                            href="#">Explore Tech <span
+                                class="material-symbols-outlined text-sm">arrow_forward</span></a>
+                    </div>
+
+                    <!-- Sports -->
+                    <div
+                        class="bg-secondary-container p-8 lg:p-10 rounded-3xl text-on-secondary-container flex flex-col gap-5 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_40px_-15px_rgba(248,190,28,0.2)] group">
+                        <div
+                            class="w-14 h-14 bg-on-secondary-container/5 group-hover:bg-on-secondary-container/10 transition-colors rounded-2xl flex items-center justify-center border border-on-secondary-container/10">
+                            <span
+                                class="material-symbols-outlined text-on-secondary-container text-3xl">sports_soccer</span>
+                        </div>
+                        <h3 class="font-title-lg text-2xl font-bold mt-2">Sports &amp; Arts</h3>
+                        <p class="font-body-md text-on-secondary-container/80 flex-grow leading-relaxed">Comprehensive
+                            extracurriculars including competitive athletics, music, drama, and fine arts.</p>
+                        <a class="inline-flex items-center font-bold hover:gap-3 gap-2 transition-all mt-2"
+                            href="#">Join a Club <span
+                                class="material-symbols-outlined text-sm">arrow_forward</span></a>
+                    </div>
+
+                    <!-- Library -->
+                    <div
+                        class="bg-white p-8 lg:p-10 rounded-3xl border border-surface-tint flex flex-col gap-5 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.08)] group">
+                        <div
+                            class="w-14 h-14 bg-primary/5 group-hover:bg-primary/10 transition-colors rounded-2xl flex items-center justify-center">
+                            <span class="material-symbols-outlined text-primary text-3xl">menu_book</span>
+                        </div>
+                        <h3 class="font-title-lg text-2xl text-primary font-bold mt-2">Academic Library</h3>
+                        <p class="font-body-md text-on-surface-variant flex-grow leading-relaxed">Access to thousands of
+                            physical and digital resources to support independent learning.</p>
+                        <a class="inline-flex items-center text-primary font-bold hover:gap-3 gap-2 transition-all mt-2"
+                            href="#">Resource Center <span
+                                class="material-symbols-outlined text-sm">arrow_forward</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Features / Facilities -->
+
+
+
+
+        <!-- <section class="py-20 lg:py-28 px-margin-desktop max-w-container-max mx-auto relative overflow-hidden">
+            <div class="flex flex-col md:flex-row gap-16 lg:gap-24 items-center">
+                <div class="md:w-5/12">
+                    <div
+                        class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase bg-secondary/10 text-secondary border border-secondary/20 mb-6">
+                        <span class="material-symbols-outlined" style="font-size:14px;">domain</span>
+                        Campus Infrastructure
+                    </div>
+                    <h2 class="text-4xl lg:text-5xl text-primary font-extrabold mb-6 tracking-tight"
+                        style="font-family:'Plus Jakarta Sans',sans-serif;">World-Class Facilities</h2>
+                    <p class="text-lg text-on-surface-variant mb-10 leading-relaxed">We invest heavily in modern
+                        infrastructure that facilitates interactive learning, seamless collaboration, and holistic
+                        student well-being.</p>
+
+                    <button
+                        class="group relative inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white rounded-full font-bold overflow-hidden transition-all hover:scale-105 hover:shadow-[0_10px_20px_rgba(0,76,70,0.2)]">
+                        <span
+                            class="absolute inset-0 w-full h-full bg-white/20 -translate-x-full group-hover:translate-x-full transition-transform duration-500 ease-out"></span>
+                        <span class="relative flex items-center gap-2">
+                            <span class="material-symbols-outlined">explore</span>
+                            Virtual Campus Tour
+                        </span>
+                    </button>
+                </div>
+                <div class="md:w-7/12 grid grid-cols-1 sm:grid-cols-2 gap-y-12 gap-x-12 relative">
+                    
+                    <div
+                        class="absolute inset-y-0 left-1/2 w-px bg-gradient-to-b from-transparent via-primary/10 to-transparent hidden sm:block">
+                    </div>
+
+                    <div class="flex flex-col gap-4 group">
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-secondary/10 text-secondary flex items-center justify-center border border-secondary/20 transition-transform group-hover:-translate-y-1 group-hover:shadow-lg">
+                            <span class="material-symbols-outlined text-3xl">smart_display</span>
+                        </div>
+                        <div>
+                            <h4 class="font-title-lg text-xl text-primary font-bold mb-2">Smart Classrooms</h4>
+                            <p class="font-body-md text-on-surface-variant leading-relaxed">Equipped with interactive
+                                boards and modern audio-visual learning tools.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-4 group">
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center border border-primary/20 transition-transform group-hover:-translate-y-1 group-hover:shadow-lg">
+                            <span class="material-symbols-outlined text-3xl">lan</span>
+                        </div>
+                        <div>
+                            <h4 class="font-title-lg text-xl text-primary font-bold mb-2">Computer Labs</h4>
+                            <p class="font-body-md text-on-surface-variant leading-relaxed">High-speed internet and
+                                latest software for advanced technical training.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-4 group">
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-accent-coral/10 text-accent-coral flex items-center justify-center border border-accent-coral/20 transition-transform group-hover:-translate-y-1 group-hover:shadow-lg">
+                            <span class="material-symbols-outlined text-3xl">import_contacts</span>
+                        </div>
+                        <div>
+                            <h4 class="font-title-lg text-xl text-primary font-bold mb-2">Resource Library</h4>
+                            <p class="font-body-md text-on-surface-variant leading-relaxed">A quiet haven for research
+                                with expansive physical and e-book collections.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-4 group">
+                        <div
+                            class="w-14 h-14 rounded-2xl bg-accent-lavender/10 text-accent-lavender flex items-center justify-center border border-accent-lavender/20 transition-transform group-hover:-translate-y-1 group-hover:shadow-lg">
+                            <span class="material-symbols-outlined text-3xl">cast_for_education</span>
+                        </div>
+                        <div>
+                            <h4 class="font-title-lg text-xl text-primary font-bold mb-2">Online Learning</h4>
+                            <p class="font-body-md text-on-surface-variant leading-relaxed">Hybrid learning platform for
+                                assignments, results, and study resources.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+
+
+        <!-- News & Events -->
+        <section class="py-20 lg:py-28 bg-surface px-margin-desktop relative">
+            <div class="max-w-container-max mx-auto">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-12 lg:mb-16 gap-6">
+                    <div>
+                        <div
+                            class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase bg-accent-coral/10 text-accent-coral border border-accent-coral/20 mb-6">
+                            <span class="material-symbols-outlined" style="font-size:14px;">campaign</span>
+                            Stay Updated
+                        </div>
+                        <h2 class="text-4xl lg:text-5xl text-primary font-extrabold mb-4 tracking-tight"
+                            style="font-family:'Plus Jakarta Sans',sans-serif;">News &amp; Updates</h2>
+                        <p class="text-lg text-on-surface-variant max-w-xl leading-relaxed">Keep up with the latest
+                            happenings, achievements, and important announcements at Moita.</p>
+                    </div>
+                    <a class="group inline-flex items-center gap-2 font-bold text-primary hover:text-secondary transition-colors border-b-2 border-primary/20 hover:border-secondary pb-1"
+                        href="#">
+                        View All News
+                        <span
+                            class="material-symbols-outlined transform group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                    </a>
+                </div>
+
+                <div class="grid lg:grid-cols-3 gap-8">
+                    <!-- News Card 1 -->
+                    <div
+                        class="bg-white rounded-3xl overflow-hidden border border-surface-tint shadow-sm hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)] transition-all duration-300 group flex flex-col">
+                        <div class="h-56 relative overflow-hidden">
+                            <div
+                                class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors z-10 pointer-events-none">
+                            </div>
+                            <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                                style="background-image: url('images/gallery.jpg');">
+                            </div>
+                        </div>
+                        <div class="p-8 flex flex-col flex-grow">
+                            <span
+                                class="font-bold text-xs tracking-wider text-secondary bg-secondary/10 px-3 py-1.5 rounded-full mb-5 inline-block w-max">Announcement</span>
+                            <h3
+                                class="font-title-lg text-2xl text-primary font-bold mb-3 group-hover:text-secondary transition-colors">
+                                2024 Graduation Ceremony Dates Announced</h3>
+                            <p class="font-body-md text-on-surface-variant mb-6 flex-grow leading-relaxed">We are
+                                pleased to announce the schedule for the 25th Graduation Ceremony. All graduating
+                                seniors must register...</p>
+                            <div
+                                class="flex items-center gap-2 text-sm text-on-surface-variant/70 font-semibold border-t border-surface-tint pt-5 mt-auto">
+                                <span class="material-symbols-outlined text-[18px]">calendar_today</span> Oct 12, 2023
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- News Card 2 -->
+                    <div
+                        class="bg-white rounded-3xl overflow-hidden border border-surface-tint shadow-sm hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)] transition-all duration-300 group flex flex-col">
+                        <div class="h-56 relative overflow-hidden">
+                            <div
+                                class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors z-10 pointer-events-none">
+                            </div>
+                            <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                                style="background-image: url('images/abt3.jpg');">
+                            </div>
+                        </div>
+                        <div class="p-8 flex flex-col flex-grow">
+                            <span
+                                class="font-bold text-xs tracking-wider text-primary bg-primary/10 px-3 py-1.5 rounded-full mb-5 inline-block w-max">Achievements</span>
+                            <h3
+                                class="font-title-lg text-2xl text-primary font-bold mb-3 group-hover:text-secondary transition-colors">
+                                National Science Fair Winners</h3>
+                            <p class="font-body-md text-on-surface-variant mb-6 flex-grow leading-relaxed">Our students
+                                took home the first prize in the Regional Science Innovation Fair with their renewable
+                                energy project...</p>
+                            <div
+                                class="flex items-center gap-2 text-sm text-on-surface-variant/70 font-semibold border-t border-surface-tint pt-5 mt-auto">
+                                <span class="material-symbols-outlined text-[18px]">calendar_today</span> Sep 28, 2023
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Upcoming Event List -->
+                    <div
+                        class="bg-deep-forest text-on-primary rounded-3xl p-8 lg:p-10 relative overflow-hidden shadow-[0_20px_40px_-15px_rgba(0,26,24,0.5)]">
+                        <!-- Decorative glow -->
+                        <div
+                            class="absolute -top-20 -right-20 w-64 h-64 bg-secondary/20 rounded-full filter blur-[60px] pointer-events-none">
+                        </div>
+
+                        <h3 class="font-title-lg text-2xl font-bold mb-8 flex items-center gap-3 relative z-10">
+                            <span class="material-symbols-outlined text-secondary text-3xl">event</span> Upcoming Events
+                        </h3>
+
+                        <div class="space-y-6 relative z-10">
+                            <!-- Event 1 -->
+                            <div
+                                class="flex gap-5 items-start border-b border-white/10 pb-6 group hover:translate-x-1 transition-transform">
+                                <div
+                                    class="bg-secondary text-on-secondary px-4 py-2 rounded-xl text-center shadow-lg transform group-hover:scale-105 transition-transform">
+                                    <p class="text-2xl font-black leading-none mb-1">15</p>
+                                    <p class="text-xs uppercase font-bold tracking-widest">Nov</p>
+                                </div>
+                                <div>
+                                    <p class="text-lg font-bold mb-1 group-hover:text-secondary transition-colors">
+                                        Parent-Teacher Meeting</p>
+                                    <p class="text-sm opacity-70 flex items-center gap-1"><span
+                                            class="material-symbols-outlined text-[16px]">location_on</span> Main Hall,
+                                        09:00 AM</p>
+                                </div>
+                            </div>
+
+                            <!-- Event 2 -->
+                            <div
+                                class="flex gap-5 items-start border-b border-white/10 pb-6 group hover:translate-x-1 transition-transform">
+                                <div
+                                    class="bg-white/10 text-white px-4 py-2 rounded-xl text-center backdrop-blur-sm transform group-hover:scale-105 transition-transform border border-white/10">
+                                    <p class="text-2xl font-black leading-none mb-1">22</p>
+                                    <p class="text-xs uppercase font-bold tracking-widest">Nov</p>
+                                </div>
+                                <div>
+                                    <p class="text-lg font-bold mb-1 group-hover:text-secondary transition-colors">
+                                        Inter-School Sports Gala</p>
+                                    <p class="text-sm opacity-70 flex items-center gap-1"><span
+                                            class="material-symbols-outlined text-[16px]">location_on</span> Sports
+                                        Grounds, All Day</p>
+                                </div>
+                            </div>
+
+                            <!-- Event 3 -->
+                            <div class="flex gap-5 items-start group hover:translate-x-1 transition-transform">
+                                <div
+                                    class="bg-white/10 text-white px-4 py-2 rounded-xl text-center backdrop-blur-sm transform group-hover:scale-105 transition-transform border border-white/10">
+                                    <p class="text-2xl font-black leading-none mb-1">05</p>
+                                    <p class="text-xs uppercase font-bold tracking-widest">Dec</p>
+                                </div>
+                                <div>
+                                    <p class="text-lg font-bold mb-1 group-hover:text-secondary transition-colors">End
+                                        of Year Arts Showcase</p>
+                                    <p class="text-sm opacity-70 flex items-center gap-1"><span
+                                            class="material-symbols-outlined text-[16px]">location_on</span> Auditorium,
+                                        02:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- Gallery Section -->
+        <section class="py-20 lg:py-28 px-margin-desktop max-w-container-max mx-auto relative">
+            <div class="text-center mb-16 lg:mb-20">
+                <div
+                    class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase bg-primary/5 text-primary border border-primary/10 mb-6">
+                    <span class="material-symbols-outlined" style="font-size:14px;">photo_camera</span>
+                    Discover Our World
+                </div>
+                <h2 class="text-4xl lg:text-5xl text-primary font-extrabold mb-6 tracking-tight"
+                    style="font-family:'Plus Jakarta Sans',sans-serif;">Gallery</h2>
+                <p class="text-lg text-on-surface-variant max-w-2xl mx-auto leading-relaxed">Glimpses into the vibrant
+                    daily life, traditions, and celebrations at Moita Secondary. A place where lifelong memories are
+                    made.</p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-[250px] lg:auto-rows-[300px]">
+                <!-- Main Feature Image -->
+                <div class="col-span-2 row-span-2 overflow-hidden rounded-3xl relative group shadow-lg">
+                    <div
+                        class="absolute inset-0 bg-primary/30 group-hover:bg-transparent transition-colors duration-700 z-10 pointer-events-none">
+                    </div>
+                    <!-- Gradient overlay for text -->
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20 flex items-end p-8">
+                        <div
+                            class="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+                            <h4 class="text-white text-2xl font-bold mb-2">Main Administration Building</h4>
+                            <p class="text-white/80 font-body-md">The heart of our bustling campus.</p>
+                        </div>
+                    </div>
+                    <div class="w-full h-full bg-cover bg-center transition-transform duration-1000 group-hover:scale-110"
+                        style="background-image: url('images/abt4.jpg');">
+                    </div>
+                </div>
+
+                <!-- Grid Image 2 -->
+                <div class="col-span-2 md:col-span-1 rounded-3xl overflow-hidden relative group shadow-md">
+                    <div
+                        class="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors duration-500 z-10 pointer-events-none">
+                    </div>
+                    <div class="w-full h-full bg-cover bg-center transition-transform duration-1000 group-hover:scale-110"
+                        style="background-image: url('images/abt5.jpg');">
+                    </div>
+                </div>
+
+                <!-- Grid Image 3 -->
+                <div class="col-span-2 md:col-span-1 rounded-3xl overflow-hidden relative group shadow-md">
+                    <div
+                        class="absolute inset-0 bg-secondary/20 group-hover:bg-transparent transition-colors duration-500 z-10 pointer-events-none">
+                    </div>
+                    <div class="w-full h-full bg-cover bg-center transition-transform duration-1000 group-hover:scale-110"
+                        style="background-image: url('images/abt6.jpg');">
+                    </div>
+                </div>
+
+                <!-- Grid Image 4 (Wide) -->
+                <div class="col-span-2 rounded-3xl overflow-hidden relative group shadow-md">
+                    <div
+                        class="absolute inset-0 bg-accent-lavender/20 group-hover:bg-transparent transition-colors duration-500 z-10 pointer-events-none">
+                    </div>
+                    <div class="w-full h-full bg-cover bg-center transition-transform duration-1000 group-hover:scale-110"
+                        style="background-image: url('images/abt7.jpg');">
+                    </div>
+                    <!-- Floating playful badge -->
+                    <div
+                        class="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-primary font-bold px-4 py-2 rounded-full text-sm shadow-lg z-20 transform translate-x-10 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-500">
+                        Graduation 2023 🎉
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- Testimonials -->
+        <section class="py-20 lg:py-28 bg-deep-forest text-white px-margin-desktop relative overflow-hidden">
+            <!-- Decorative Background Element -->
+            <div
+                class="absolute top-0 right-0 w-[800px] h-[800px] bg-secondary/10 rounded-full filter blur-[120px] pointer-events-none translate-x-1/3 -translate-y-1/3">
+            </div>
+
+            <div class="max-w-container-max mx-auto relative z-10">
+                <div class="flex flex-col lg:flex-row gap-16 lg:gap-24 items-center">
+                    <div class="lg:w-5/12">
+                        <div
+                            class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-bold tracking-widest uppercase bg-white/10 text-white border border-white/20 mb-6">
+                            <span class="material-symbols-outlined" style="font-size:14px;">forum</span>
+                            Community Voices
+                        </div>
+                        <h2 class="text-4xl lg:text-5xl font-extrabold mb-6 tracking-tight"
+                            style="font-family:'Plus Jakarta Sans',sans-serif;">Don't Just Take Our Word For It</h2>
+                        <div class="flex gap-1 mb-6 text-secondary">
+                            <span class="material-symbols-outlined"
+                                style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined"
+                                style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined"
+                                style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined"
+                                style="font-variation-settings: 'FILL' 1;">star</span>
+                            <span class="material-symbols-outlined"
+                                style="font-variation-settings: 'FILL' 1;">star</span>
+                        </div>
+                        <p class="text-lg text-white/80 leading-relaxed mb-8">Join thousands of successful alumni and
+                            satisfied parents who chose Moita Secondary for its uncompromising standard of excellence.
+                        </p>
+
+                        <div class="flex items-center gap-4">
+                            <div class="flex -space-x-4">
+                                <img class="w-12 h-12 rounded-full border-2 border-deep-forest object-cover"
+                                    src="images/abt8.jpg"
+                                    alt="Avatar">
+                                <img class="w-12 h-12 rounded-full border-2 border-deep-forest object-cover"
+                                    src="images/abt9.jpg"
+                                    alt="Avatar">
+                                <img class="w-12 h-12 rounded-full border-2 border-deep-forest object-cover"
+                                    src="images/abt10.jpg"
+                                    alt="Avatar">
+                            </div>
+                            <div class="text-sm">
+                                <p class="font-bold">Loved by 500+ parents</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-7/12 grid md:grid-cols-2 gap-6 lg:gap-8">
+                        <div
+                            class="bg-white/10 backdrop-blur-xl p-8 lg:p-10 rounded-3xl border border-white/20 shadow-2xl relative">
+                            <span
+                                class="material-symbols-outlined absolute top-8 right-8 text-white/20 text-6xl">format_quote</span>
+                            <p class="text-lg italic mb-8 text-white/90 leading-relaxed relative z-10">"The holistic
+                                approach to education at Moita didn't just help me pass exams; it taught me how to
+                                lead, communicate, and solve problems in the real world."</p>
+                            <div class="flex items-center gap-4 mt-auto">
+                                <img class="w-14 h-14 rounded-full object-cover"
+                                    src="images/abt11.jpg"
+                                    alt="Emmanuel K.">
+                                <div>
+                                    <p class="font-bold text-lg">Emmanuel K.</p>
+                                    <p class="text-sm text-secondary">Alumnus, Class of 2018</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-white/10 backdrop-blur-xl p-8 lg:p-10 rounded-3xl border border-white/20 shadow-2xl relative md:translate-y-8">
+                            <span
+                                class="material-symbols-outlined absolute top-8 right-8 text-white/20 text-6xl">format_quote</span>
+                            <p class="text-lg italic mb-8 text-white/90 leading-relaxed relative z-10">"As a parent, I
+                                value the transparency and the moral standards the school upholds. My children are safe,
+                                happy, and academically thriving beyond my expectations."</p>
+                            <div class="flex items-center gap-4 mt-auto">
+                                <img class="w-14 h-14 rounded-full object-cover"
+                                    src="images/abt12.jpg"
+                                    alt="Mama Neema">
+                                <div>
+                                    <p class="font-bold text-lg">Mama Neema</p>
+                                    <p class="text-sm text-secondary">Current Parent</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-24 px-margin-desktop bg-surface relative">
+            <div
+                class="max-w-container-max mx-auto rounded-[40px] p-12 md:p-24 text-center relative overflow-hidden shadow-2xl group">
+                <div class="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-105"
+                    style="background-image: url('images/abt.jpg');">
+                </div>
+                <div class="absolute inset-0 bg-deep-forest/90 mix-blend-multiply"></div>
+
+                <div class="relative z-10 flex flex-col items-center">
+                    <span class="material-symbols-outlined text-secondary text-5xl mb-6">school</span>
+                    <h2 class="text-4xl lg:text-6xl text-white font-extrabold mb-6 tracking-tight"
+                        style="font-family:'Plus Jakarta Sans',sans-serif;">Admissions for 2024 Now Open</h2>
+                    <p class="text-xl text-white/80 max-w-2xl mx-auto mb-10 leading-relaxed">Secure your child's future
+                        at Tanzania's leading center of academic excellence. Early applications are strongly encouraged.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row justify-center gap-4 w-full sm:w-auto">
+                        <button
+                            class="px-10 py-5 bg-secondary text-primary rounded-full font-bold text-lg hover:bg-white transition-all shadow-[0_10px_20px_rgba(248,190,28,0.3)] hover:scale-105 hover:shadow-xl w-full sm:w-auto">
+                            Apply for Admission
+                        </button>
+                        <button
+                            class="px-10 py-5 border-2 border-white text-white rounded-full font-bold text-lg hover:bg-white hover:text-primary transition-all w-full sm:w-auto">
+                            Download Prospectus
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Contact & Map -->
+        <section class="py-section-gap px-margin-desktop max-w-container-max mx-auto" id="contact">
+            <div class="grid lg:grid-cols-2 gap-16">
+                <div>
+                    <h2 class="font-headline-lg text-headline-lg text-primary mb-8">Get in Touch</h2>
+                    <div class="grid sm:grid-cols-2 gap-8 mb-12">
+                        <div class="flex flex-col gap-2">
+                            <span class="material-symbols-outlined text-secondary text-2xl">location_on</span>
+                            <h4 class="font-label-md text-label-md text-primary">Campus Address</h4>
+                            <p class="font-body-md text-body-md text-on-surface-variant">Moita Hill, P.O. Box
+                                4500<br>Mlimani, Tanzania</p>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <span class="material-symbols-outlined text-secondary text-2xl">call</span>
+                            <h4 class="font-label-md text-label-md text-primary">Phone</h4>
+                            <p class="font-body-md text-body-md text-on-surface-variant">+255 (0) 22 234 5678<br>+255
+                                (0) 755 123 456</p>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <span class="material-symbols-outlined text-secondary text-2xl">mail</span>
+                            <h4 class="font-label-md text-label-md text-primary">Email</h4>
+                            <p class="font-body-md text-body-md text-on-surface-variant">
+                                info@mlimani.ac.tz<br>admissions@mlimani.ac.tz</p>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <span class="material-symbols-outlined text-secondary text-2xl">share</span>
+                            <h4 class="font-label-md text-label-md text-primary">Follow Us</h4>
+                            <div class="flex gap-4">
+                                <a class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all"
+                                    href="#">f</a>
+                                <a class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all"
+                                    href="#">t</a>
+                                <a class="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all"
+                                    href="#">ig</a>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="space-y-6 bg-white p-8 rounded-2xl border border-surface-tint shadow-sm">
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <input
+                                class="w-full px-4 py-3 border-0 border-b-2 border-surface-tint focus:border-primary focus:ring-0 transition-all bg-surface-container-low rounded-t-lg"
+                                placeholder="Full Name" type="text">
+                            <input
+                                class="w-full px-4 py-3 border-0 border-b-2 border-surface-tint focus:border-primary focus:ring-0 transition-all bg-surface-container-low rounded-t-lg"
+                                placeholder="Email Address" type="email">
+                        </div>
+                        <input
+                            class="w-full px-4 py-3 border-0 border-b-2 border-surface-tint focus:border-primary focus:ring-0 transition-all bg-surface-container-low rounded-t-lg"
+                            placeholder="Subject" type="text">
+                        <textarea
+                            class="w-full px-4 py-3 border-0 border-b-2 border-surface-tint focus:border-primary focus:ring-0 transition-all bg-surface-container-low rounded-t-lg"
+                            placeholder="How can we help you?" rows="4"></textarea>
+                        <button
+                            class="w-full py-4 bg-primary text-on-primary rounded-lg font-label-md hover:shadow-lg transition-all"
+                            type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="rounded-2xl overflow-hidden shadow-lg border-4 border-white h-full min-h-[500px]">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2086.3031031781575!2d36.60378469751024!3d-3.560171473943839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2stz!4v1780350117513!5m2!1sen!2stz"
+                        class="w-full h-full min-h-[500px]" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-deep-forest text-on-primary mt-section-gap">
+        <div
+            class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-desktop py-section-gap max-w-container-max mx-auto">
+            <div>
+                <span class="font-headline-md text-headline-md font-bold text-secondary-fixed mb-6 block">Moita
+                    Secondary</span>
+                <p class="font-body-md text-body-md opacity-70 leading-relaxed">Dedicated to excellence since 1998.
+                    Nurturing the next generation of African leaders through holistic and quality education.</p>
+            </div>
+            <div>
+                <h4 class="font-title-lg text-title-lg text-secondary-fixed mb-6">Quick Links</h4>
+                <ul class="space-y-4 font-label-md text-label-md">
+                    <li class=""><a class="text-on-primary/80 hover:text-secondary-fixed transition-colors duration-200"
+                            href="#">About Us</a></li>
+                    <li class=""><a class="text-on-primary/80 hover:text-secondary-fixed transition-colors duration-200"
+                            href="#">School Calendar</a></li>
+                    <li class=""><a class="text-on-primary/80 hover:text-secondary-fixed transition-colors duration-200"
+                            href="#">News Portal</a></li>
+                    <li class=""><a class="text-on-primary/80 hover:text-secondary-fixed transition-colors duration-200"
+                            href="#">Careers</a></li>
+                    <li class=""><a class="text-on-primary/80 hover:text-secondary-fixed transition-colors duration-200"
+                            href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-title-lg text-title-lg text-secondary-fixed mb-6">Admissions</h4>
+                <ul class="space-y-4 font-label-md text-label-md">
+                    <li class=""><a class="text-on-primary/80 hover:text-secondary-fixed transition-colors duration-200"
+                            href="#">Admission Process</a></li>
+                    <li class=""><a class="text-on-primary/80 hover:text-secondary-fixed transition-colors duration-200"
+                            href="#">Scholarships</a></li>
+                    <li class=""><a class="text-on-primary/80 hover:text-secondary-fixed transition-colors duration-200"
+                            href="#">Fee Structure</a></li>
+                    <li class=""><a class="text-on-primary/80 hover:text-secondary-fixed transition-colors duration-200"
+                            href="#">Portal Login</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-title-lg text-title-lg text-secondary-fixed mb-6">Curriculum</h4>
+                <ul class="space-y-4 font-label-md text-label-md">
+                    <li class=""><a class="text-on-primary/80 hover:text-secondary-fixed transition-colors duration-200"
+                            href="#">Science &amp; Math</a></li>
+                    <li class=""><a class="text-on-primary/80 hover:text-secondary-fixed transition-colors duration-200"
+                            href="#">Arts &amp; Humanities</a></li>
+                    <li class=""><a class="text-on-primary/80 hover:text-secondary-fixed transition-colors duration-200"
+                            href="#">ICT &amp; Computing</a></li>
+                    <li class=""><a class="text-on-primary/80 hover:text-secondary-fixed transition-colors duration-200"
+                            href="#">Languages</a></li>
+                </ul>
+            </div>
+        </div>
+        <div
+            class="px-margin-desktop py-8 border-t border-on-primary/10 max-w-container-max mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-center">
+            <p class="font-body-md text-body-md opacity-60">© 2024 Moita Secondary School. All Rights
+                Reserved.</p>
+            <div class="flex gap-8 font-label-sm text-label-sm">
+                <a class="text-on-primary/80 hover:text-secondary-fixed" href="#">Privacy Policy</a>
+                <a class="text-on-primary/80 hover:text-secondary-fixed" href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Simple entrance animation observer
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('entrance-fade');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.entrance-fade').forEach(el => observer.observe(el));
+    </script>
+
+
+</body>
+
+</html>
