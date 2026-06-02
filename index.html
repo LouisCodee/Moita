@@ -487,12 +487,11 @@
                 padding: 0.75rem 0;
             }
 
-            /* Hero: push content down below fixed navbar */
+            /* Hero: Center content vertically on mobile for better appearance */
             .hero-content {
-                padding-top: 72px;
-                justify-content: flex-start !important;
-                padding-bottom: 5rem;
-                overflow-y: auto;
+                padding-top: 0 !important;
+                justify-content: center !important;
+                padding-bottom: 2rem !important;
             }
 
             /* Badge: smaller, truncated */
@@ -506,53 +505,37 @@
                 letter-spacing: 0.05em !important;
             }
 
-            /* H1: tighter clamp for small screens */
+            /* H1: Much nicer appearance for mobile */
             .hero-h1 {
-                font-size: clamp(1.45rem, 7.5vw, 2.1rem) !important;
-                line-height: 1.15 !important;
-                margin-bottom: 0.75rem !important;
-            }
-
-            /* Sub-headline: smaller and less margin */
-            .hero-sub {
-                font-size: 0.82rem !important;
-                line-height: 1.55 !important;
+                font-size: clamp(2rem, 9vw, 2.75rem) !important;
+                line-height: 1.2 !important;
                 margin-bottom: 1rem !important;
             }
 
-            /* CTA buttons: smaller padding, 2 per row */
-            .hero-btns {
-                gap: 0.5rem !important;
-                margin-bottom: 1.25rem !important;
+            /* Sub-headline: slightly larger and readable */
+            .hero-sub {
+                font-size: 1rem !important;
+                line-height: 1.6 !important;
+                margin-bottom: 2rem !important;
             }
 
-            .btn-hero-primary,
-            .btn-hero-ghost {
-                padding: 0.6rem 1rem !important;
-                font-size: 0.75rem !important;
-                border-radius: 0.375rem !important;
-            }
-
-            .btn-hero-primary .material-symbols-outlined,
-            .btn-hero-ghost .material-symbols-outlined {
-                font-size: 15px !important;
-            }
-
-            /* Counter bar: 2×2 grid, smaller values */
+            /* Counter bar: 3 items in a row, smaller text */
             .hero-stat-bar {
                 display: grid !important;
-                grid-template-columns: 1fr 1fr !important;
-                gap: 0.75rem 1rem !important;
-                padding-top: 0.875rem !important;
+                grid-template-columns: repeat(3, 1fr) !important;
+                gap: 0.5rem !important;
+                padding-top: 1rem !important;
             }
 
             .hero-stat-val {
-                font-size: 1.15rem !important;
+                font-size: 1.25rem !important;
+                margin-bottom: 0.125rem !important;
             }
 
             .hero-stat-label {
-                font-size: 0.58rem !important;
-                letter-spacing: 0.06em !important;
+                font-size: 0.6rem !important;
+                letter-spacing: 0.04em !important;
+                line-height: 1.2 !important;
             }
 
             /* Hide scroll indicator on mobile — saves vertical space */
@@ -562,7 +545,7 @@
 
             /* Move slide dots so they don’t overlap counter */
             #hero>div[style*="bottom:2.5rem"] {
-                bottom: 0.75rem !important;
+                bottom: 1rem !important;
                 right: 1rem !important;
             }
         }
@@ -570,16 +553,19 @@
         /* Very small phones (iPhone SE etc.) */
         @media (max-width: 390px) {
             .hero-h1 {
-                font-size: 1.3rem !important;
+                font-size: 1.75rem !important;
             }
-
             .hero-sub {
-                font-size: 0.78rem !important;
+                font-size: 0.9rem !important;
             }
-
-            .btn-hero-primary,
-            .btn-hero-ghost {
-                padding: 0.55rem 0.875rem !important;
+            .hero-stat-bar {
+                gap: 0.25rem !important;
+            }
+            .hero-stat-val {
+                font-size: 1.1rem !important;
+            }
+            .hero-stat-label {
+                font-size: 0.55rem !important;
             }
         }
 
